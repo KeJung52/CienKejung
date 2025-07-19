@@ -67,7 +67,7 @@ public class Players : MonoBehaviour
             
 
             //방향 전환
-            if(Input.GetButtonDown("Horizontal")) //방향 키 눌렸을 때
+            if(Input.GetButton("Horizontal")) //방향 키 눌렸을 때
             {
                 spriteRenderer.flipX = (Input.GetAxisRaw("Horizontal") == -1);
             }
